@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(220, 250, 180);
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: rgb(100, 200, 0);
+
+}
+
+.title {
+    text-align: center;
+    color: rgb(100, 200, 0);
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    color: rgb(100, 200, 0);
+}
+
+nav a {
+    display: block;
+    color: yellowgreen;
+}
+
+nav li:last-child {
+    float: right;
+}
+
+nav a::first-letter {
+    color: green;
+    background-color: yellow;
+}
+
+img, button {
+    width: 400px;
+}
+
+button {
+    height: 50px;
+    background-color: slategrey;
+    color: red;
+}
+
+.source {
+    float: right;
+    font-style: italic;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    color: yellow;
+}
